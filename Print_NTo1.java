@@ -12,7 +12,7 @@ class printingNumber {
     }
 }
 
-public class PrintN_To_1 {
+public class Print_NTo1 {
 
     public static void main(String[] args) {
 
