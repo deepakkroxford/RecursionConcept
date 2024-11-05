@@ -1,4 +1,4 @@
-class printto5{
+class printto5 {
     public void print(int n)
     {
         if(n==0)
