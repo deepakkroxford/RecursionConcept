@@ -12,7 +12,7 @@ class Factorial {
     }
 }
 
-public class FactorialOfN {
+public class Q4_FactorialOfN {
     public static void main(String[] args) {
         System.out.println(Factorial.fact(5));
     }

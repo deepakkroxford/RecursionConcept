@@ -15,6 +15,11 @@ public class Q6_BinarySearch {
         return Search(arr, target, start, mid-1);
     }
     public static void main(String[] args) {
+
+        /*
+         * Leetcode 704 :https://leetcode.com/problems/binary-search/
+         * 
+         */
         int arr[] = {1,2,3,4,55,66,78};
         int target = 4;
 

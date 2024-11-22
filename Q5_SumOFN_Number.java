@@ -16,7 +16,7 @@ class sumofnnumber{
 }
 
 
-public class SumOFN_Number {
+public class Q5_SumOFN_Number {
     public static void main(String[] args) {
         sumofnnumber.sum(0, 10, 1);
     }

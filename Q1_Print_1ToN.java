@@ -34,7 +34,7 @@ class print {
     }
 }
 
-public class Print_1ToN {
+public class Q1_Print_1ToN {
     public static void main(String[] args) {
         
         /*
