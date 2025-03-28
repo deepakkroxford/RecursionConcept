@@ -34,8 +34,8 @@ public class Q3_fibnacciSeries {
         System.out.println(b);
         // fib.sum(a, b, n-1);
 
-        fib obj =new fib();
-          int x =obj.fibnaci(4);
+         fib obj =new fib();
+          int x =obj.fibnaci(10);
           System.out.println(x);
         
     }
