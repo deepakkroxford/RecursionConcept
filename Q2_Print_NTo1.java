@@ -10,6 +10,15 @@ class printingNumber {
         Print(n - 1);
 
     }
+    public static void Prints(int n) {
+        if(n==10){
+            return;
+        }
+        Prints(n+1);
+        System.out.println(n);
+        
+
+    }
 }
 
 public class Q2_Print_NTo1 {
@@ -20,12 +29,14 @@ public class Q2_Print_NTo1 {
          * itterative way to print the number
          */
         for (int i = 10; i > 0; i--) {
-            System.out.println(i);
+         //   System.out.println(i);
         }
         System.out.println();
 
         printingNumber obj = new printingNumber();
-        obj.Print(10);
+        // obj.Print(10);
+
+        printingNumber.Prints(1);
 
     }
 }

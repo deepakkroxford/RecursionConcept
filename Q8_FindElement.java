@@ -28,6 +28,15 @@ public class Q8_FindElement {
 
         return findindex(arr, target, index + 1);
     }
+    public static boolean findNumber(int target, int arr[],int index) {
+        if(index ==arr.length){
+            return false;
+        }
+        if(arr[index]==target) {
+            return true;
+        }
+        return findNumber(target, arr, index+1);
+    }
 
     public static void main(String[] args) {
         int arr[] = { 1, 2, 3, 4, 5, 6, 7 };

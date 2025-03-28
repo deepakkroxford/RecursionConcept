@@ -10,10 +10,18 @@ class Factorial {
         return Factorialn;
 
     }
+
+    public static int findFactorial(int n) {
+        if(n==0){
+            return 1;
+        }
+        return n * findFactorial(n-1);
+    }
 }
 
 public class Q4_FactorialOfN {
     public static void main(String[] args) {
         System.out.println(Factorial.fact(5));
+        System.out.println(Factorial.findFactorial(5));
     }
 }
