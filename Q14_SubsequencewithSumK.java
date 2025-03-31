@@ -3,7 +3,6 @@ import java.util.*;
 public class Q14_SubsequencewithSumK {
     public static void PrintingSubsequenceTargetK(int index, int arr[], int n, List<Integer> current, int sum,
             int target) {
-
         if (index == n) {
             if (sum == target) {
                 System.out.println(current);
@@ -16,7 +15,6 @@ public class Q14_SubsequencewithSumK {
         sum = sum - arr[index];
         current.remove(current.size() - 1);
         PrintingSubsequenceTargetK(index + 1, arr, n, current, sum, target);
-
     }
 
     public static int CountSubsequenceTargetK(int index, int arr[], int n, int sum, int target) {
@@ -37,9 +35,9 @@ public class Q14_SubsequencewithSumK {
     }
 
     public static void main(String[] args) {
-        int arr[] = { 3, 5, 6, 7 };
+        int arr[] = { 10,1,2,7,6,1,5};
         int n = arr.length;
-        int target = 9;
+        int target = 8;
         List<Integer> ans = new ArrayList<>();
         PrintingSubsequenceTargetK(0, arr, n, ans, 0, target);
 
