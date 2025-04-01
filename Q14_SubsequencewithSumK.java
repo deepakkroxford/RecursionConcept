@@ -37,7 +37,7 @@ public class Q14_SubsequencewithSumK {
     public static void main(String[] args) {
         int arr[] = { 10,1,2,7,6,1,5};
         int n = arr.length;
-        int target = 8;
+        int target = 9;
         List<Integer> ans = new ArrayList<>();
         PrintingSubsequenceTargetK(0, arr, n, ans, 0, target);
 
