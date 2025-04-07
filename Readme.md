@@ -52,6 +52,5 @@ The code for printing subsequences and finding subsets is similar because:
 The main difference is that subset finding stores all combinations in a result list,
 while subsequence printing directly prints the combinations
 
-
 ```
 
