@@ -19,7 +19,7 @@ public class Q23PermutationII {
     }
 
     public List<List<Integer>> permuteUnique(int[] nums) {
-        Arrays.sort(nums); // if we dont use this sorting we get the solution
+        Arrays.sort(nums); // if we dont use this sorting we get also get the correct solution
         boolean visted[] = new boolean[nums.length];
         HashSet<List<Integer>> set = new HashSet<>();
         findingUniquePermutation(nums, new ArrayList<>(), visted, set);
