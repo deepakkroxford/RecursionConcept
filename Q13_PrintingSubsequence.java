@@ -21,10 +21,10 @@ public class Q13_PrintingSubsequence {
         List<List<Integer>> res = new ArrayList<>();
         /*
          * base case : if the length of index greater than or equal to the length of the
-         * array we have to return
+         * array we have to return the result..s
          */
         if (index >= n) {
-            res.add(new ArrayList<>(current));
+            res.add(new ArrayList<>(current)); //creating a new list and adding the current list to the result
             return res;
         }
         current.add(arr[index]);

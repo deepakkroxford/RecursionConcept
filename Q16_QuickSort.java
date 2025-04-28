@@ -40,8 +40,7 @@ public class Q16_QuickSort {
             System.out.println(i);
         }
 
-        System.out.println(
-                "Time Complexity: O(n log n) - Average case, O(n^2) in worst case (when pivot is always smallest or largest element)");
+        System.out.println( "Time Complexity: O(n log n) - Average case, O(n^2) in worst case (when pivot is always smallest or largest element)");
         System.out.println("Space Complexity: O(log n) - Due to recursion stack");
     }
 }

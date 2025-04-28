@@ -20,7 +20,8 @@ class fib{
             return n;
         }
 
-        //this is also called the recrance realtions
+        //this is also called the recrance realtions. Here i perform the  two recursion call it means 
+        // that first the left recursion call complete then the right 
         return fibnaci(n-1)+fibnaci(n-2);
     }
 }

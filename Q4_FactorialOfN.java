@@ -1,6 +1,8 @@
 class Factorial {
     public static int fact(int n) {
 
+        //factorial of 0 and 1 is 1 this is the base condition and important poin to remember is 
+        // factorial of 0 is also 1
         if (n == 1 || n == 0) {
             return 1;
         }
